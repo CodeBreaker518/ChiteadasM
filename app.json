@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "ChiteadasM",
+    "slug": "ChiteadasM",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/chiteadas_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/chiteadas_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/chiteadas_logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "sourceExts": ["js", "jsx", "svgx"],
+      "transformer": "node_modules/react-native-svg-transformer/index.js"
+    }
+  }
+}
